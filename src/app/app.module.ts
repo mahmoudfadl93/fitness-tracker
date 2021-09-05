@@ -8,11 +8,15 @@ import { MaterialModule } from './material.module';
 import { AuthModule } from './auth/auth.module';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { FormsModule } from '@angular/forms';
+import { HeaderComponent } from './layout/navigtion/header/header.component';
+import { SidenavListComponent } from './layout/navigtion/sidenav-list/sidenav-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    HeaderComponent,
+    SidenavListComponent
   ],
   imports: [
     BrowserModule,
