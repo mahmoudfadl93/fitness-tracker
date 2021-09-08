@@ -6,6 +6,7 @@ import { NewTrainingComponent } from './new-training/new-training.component';
 import { PastTrainingComponent } from './past-training/past-training.component';
 import { TrainingRoutingModule } from './training-routing.module';
 import { MaterialModule } from '../material.module';
+import { StopTrainingComponent } from './current-training/stop-training.component';
 
 
 
@@ -14,7 +15,8 @@ import { MaterialModule } from '../material.module';
     ContainerComponent,
     CurrentTrainingComponent,
     NewTrainingComponent,
-    PastTrainingComponent
+    PastTrainingComponent,
+    StopTrainingComponent
   ],
   imports: [
     CommonModule,
